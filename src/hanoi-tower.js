@@ -1,3 +1,5 @@
+const CustomError = require("../extensions/custom-error");
+
 const SECONDS_IN_HOUR = 3600;
 
 module.exports = function calculateHanoi(disksNumber, turnsSpeed) {

@@ -1,3 +1,5 @@
+const CustomError = require("../extensions/custom-error");
+
 let maxDepth = 0;
 
 module.exports = class DepthCalculator {
